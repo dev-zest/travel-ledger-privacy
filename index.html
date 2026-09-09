@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="여행가계 앱의 개인정보처리방침입니다.">
+  <meta name="color-scheme" content="light">
+  <title>여행가계 개인정보처리방침</title>
+  <style>
+    :root {
+      --background: #ffffff;
+      --surface: #f7f8f8;
+      --text: #141719;
+      --muted: #626a70;
+      --border: #e3e7e8;
+      --accent: #00a878;
+      --accent-soft: #e9f8f3;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      word-break: keep-all;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-inner,
+    main,
+    footer {
+      width: min(100% - 40px, 760px);
+      margin-inline: auto;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      min-height: 72px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text);
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .brand-mark {
+      display: grid;
+      width: 30px;
+      height: 30px;
+      place-items: center;
+      border: 1px solid color-mix(in srgb, var(--accent) 40%, white);
+      border-radius: 8px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    main {
+      padding-block: 64px 72px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(30px, 6vw, 42px);
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    .effective-date {
+      margin: 0 0 42px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .summary {
+      margin: 0 0 48px;
+      padding: 22px 24px;
+      border-left: 3px solid var(--accent);
+      border-radius: 0 8px 8px 0;
+      background: var(--surface);
+      font-weight: 600;
+    }
+
+    section + section {
+      margin-top: 42px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 21px;
+      line-height: 1.4;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0;
+      color: #30363a;
+    }
+
+    p + p {
+      margin-top: 12px;
+    }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 22px;
+      color: #30363a;
+    }
+
+    li + li {
+      margin-top: 7px;
+    }
+
+    footer {
+      padding-block: 24px 40px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 520px) {
+      .header-inner,
+      main,
+      footer {
+        width: min(100% - 32px, 760px);
+      }
+
+      main {
+        padding-block: 44px 56px;
+      }
+
+      .summary {
+        padding: 18px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="brand" aria-label="여행가계">
+        <span class="brand-mark" aria-hidden="true">ㄱ</span>
+        <span>여행가계</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1>개인정보처리방침</h1>
+    <p class="effective-date">시행일: 2026년 9월 9일</p>
+
+    <p class="summary">
+      여행가계는 회원가입 없이 사용할 수 있으며, 입력한 여행과 정산 정보는 개발자 서버로 전송하지 않고 사용자의 기기 안에서 처리합니다.
+    </p>
+
+    <section>
+      <h2>1. 처리하는 정보</h2>
+      <p>앱은 사용자가 직접 입력하거나 선택한 다음 정보를 앱 기능 제공에 사용합니다.</p>
+      <ul>
+        <li>여행 이름, 여행 기간과 기준 통화</li>
+        <li>참가자 이름, 회비 납부와 정산 기록</li>
+        <li>공금 및 사비 지출 내역</li>
+        <li>사용자가 선택하거나 촬영한 영수증 사진</li>
+      </ul>
+      <p>앱은 회원가입 정보, 광고 식별자, 위치 정보 또는 분석 데이터를 수집하지 않습니다.</p>
+    </section>
+
+    <section>
+      <h2>2. 저장 및 이용</h2>
+      <p>입력한 정보와 영수증 사진은 여행 경비 관리, 지출 확인과 최종 정산 기능을 제공하기 위해 앱 전용 로컬 저장 공간에 저장됩니다. 개발자가 운영하는 서버로 전송되거나 개발자가 열람하지 않습니다.</p>
+      <p>Android의 백업 또는 기기 이전 기능이 활성화된 경우 일부 앱 데이터가 운영체제와 사용자의 계정 설정에 따라 백업 또는 이전될 수 있습니다. 이 과정은 Android 및 플랫폼 제공자의 정책을 따릅니다.</p>
+    </section>
+
+    <section>
+      <h2>3. 사진과 알림 권한</h2>
+      <p>영수증 사진은 사용자가 사진을 선택하거나 카메라로 촬영할 때만 처리합니다. 알림 권한은 여행 종료 시점과 정산 확인을 기기에서 안내하기 위해 사용하며, 사용자가 허용한 경우에만 동작합니다.</p>
+    </section>
+
+    <section>
+      <h2>4. 보관 및 삭제</h2>
+      <p>여행 및 지출 기록을 앱에서 삭제하면 해당 기록은 앱의 로컬 데이터베이스에서 제거됩니다. 앱을 삭제하거나 운영체제 설정에서 앱 데이터를 삭제하면 앱 전용 저장 공간의 기록과 영수증 사진도 함께 삭제됩니다.</p>
+    </section>
+
+    <section>
+      <h2>5. 제3자 제공과 외부 전송</h2>
+      <p>앱은 사용자의 정보를 판매하지 않으며, 개발자 서버 또는 광고·분석 사업자에게 제공하거나 전송하지 않습니다. 사진 선택, 카메라, 알림과 시스템 백업처럼 운영체제가 제공하는 기능에는 해당 플랫폼의 개인정보처리방침이 적용될 수 있습니다.</p>
+    </section>
+
+    <section>
+      <h2>6. 아동의 개인정보</h2>
+      <p>여행가계는 아동을 대상으로 제작된 앱이 아니며, 사용자의 연령 정보를 수집하지 않습니다.</p>
+    </section>
+
+    <section>
+      <h2>7. 방침 변경과 문의</h2>
+      <p>앱 기능이나 정보 처리 방식이 변경되면 이 페이지의 내용과 시행일을 갱신합니다. 개인정보 관련 문의는 Google Play 스토어에 표시된 개발자 연락처를 이용해 주세요.</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 여행가계. All rights reserved.
+  </footer>
+</body>
+</html>
